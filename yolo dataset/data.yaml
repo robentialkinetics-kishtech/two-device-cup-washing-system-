@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['cup']
+
+roboflow:
+  workspace: cup-images
+  project: cup-q9wzu
+  version: 2
+  license: Private
+  url: https://app.roboflow.com/cup-images/cup-q9wzu/2

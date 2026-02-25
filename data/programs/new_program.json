@@ -1,0 +1,34 @@
+{
+  "name": "new_program",
+  "description": "Program created on 2026-01-25 17:12",
+  "steps": [
+    {
+      "cmd": "G00",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "feedrate": 20,
+      "angle": 90,
+      "pause": 0.0
+    },
+    {
+      "cmd": "G00",
+      "x": 20.0,
+      "y": 0.0,
+      "z": 0.0,
+      "feedrate": 20,
+      "angle": 90,
+      "pause": 0.0
+    },
+    {
+      "cmd": "G00",
+      "x": 20.0,
+      "y": -20.0,
+      "z": 0.0,
+      "feedrate": 20,
+      "angle": 90,
+      "pause": 0.0
+    }
+  ],
+  "last_modified": "2026-01-25T17:12:13.342605"
+}

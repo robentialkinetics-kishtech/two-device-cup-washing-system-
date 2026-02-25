@@ -1,0 +1,18 @@
+{
+  "positions": {
+    "orgin": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "test": {
+      "x": 20.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  "offsets": {},
+  "calibration_date": "2026-01-25T17:18:44.866318",
+  "calibrated_by": null,
+  "notes": "Use Developer Mode to teach and save positions"
+}

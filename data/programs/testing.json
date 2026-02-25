@@ -1,0 +1,160 @@
+{
+  "name": "testing",
+  "description": "Program created on 2026-01-25 19:50",
+  "steps": [
+    {
+      "cmd": "G00",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "feedrate": 40,
+      "angle": 90,
+      "pause": 0.0
+    },
+    {
+      "cmd": "G00",
+      "x": -58.2,
+      "y": -21.2,
+      "z": -10.0,
+      "feedrate": 40,
+      "angle": 90,
+      "pause": 0.0
+    },
+    {
+      "cmd": "GRIPPER",
+      "x": -58.2,
+      "y": -21.2,
+      "z": -10.0,
+      "feedrate": 20,
+      "angle": 120,
+      "pause": 0.0
+    },
+    {
+      "cmd": "G00",
+      "x": -59.2,
+      "y": -33.3,
+      "z": -52.2,
+      "feedrate": 40,
+      "angle": 120,
+      "pause": 0.0
+    },
+    {
+      "cmd": "G00",
+      "x": -59.2,
+      "y": -33.3,
+      "z": -67.7,
+      "feedrate": 40,
+      "angle": 120,
+      "pause": 0.0
+    },
+    {
+      "cmd": "GRIPPER",
+      "x": -59.2,
+      "y": -33.3,
+      "z": -23.1,
+      "feedrate": 20,
+      "angle": 50,
+      "pause": 0.0
+    },
+    {
+      "cmd": "G00",
+      "x": -59.2,
+      "y": -33.3,
+      "z": -23.1,
+      "feedrate": 40,
+      "angle": 40,
+      "pause": 0.0
+    },
+    {
+      "cmd": "G00",
+      "x": -33.5,
+      "y": -7.2,
+      "z": -34.6,
+      "feedrate": 40,
+      "angle": 40,
+      "pause": 0.0
+    },
+    {
+      "cmd": "G00",
+      "x": -33.5,
+      "y": -7.2,
+      "z": -66.5,
+      "feedrate": 40,
+      "angle": 40,
+      "pause": 0.0
+    },
+    {
+      "cmd": "G00",
+      "x": -33.5,
+      "y": -7.2,
+      "z": -35.0,
+      "feedrate": 40,
+      "angle": 40,
+      "pause": 0.0
+    },
+    {
+      "cmd": "G00",
+      "x": 29.3,
+      "y": -11.5,
+      "z": -33.2,
+      "feedrate": 40,
+      "angle": 40,
+      "pause": 0.0
+    },
+    {
+      "cmd": "G00",
+      "x": 29.3,
+      "y": -11.5,
+      "z": -75.1,
+      "feedrate": 40,
+      "angle": 40,
+      "pause": 0.0
+    },
+    {
+      "cmd": "G00",
+      "x": 29.3,
+      "y": -11.5,
+      "z": -33.0,
+      "feedrate": 40,
+      "angle": 40,
+      "pause": 0.0
+    },
+    {
+      "cmd": "G00",
+      "x": 54.7,
+      "y": -19.2,
+      "z": -41.4,
+      "feedrate": 40,
+      "angle": 40,
+      "pause": 0.0
+    },
+    {
+      "cmd": "GRIPPER",
+      "x": 54.7,
+      "y": -19.2,
+      "z": -41.4,
+      "feedrate": 20,
+      "angle": 120,
+      "pause": 0.0
+    },
+    {
+      "cmd": "GRIPPER",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "feedrate": 20,
+      "angle": 0,
+      "pause": 0.0
+    },
+    {
+      "cmd": "G00",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "feedrate": 40,
+      "angle": 0,
+      "pause": 0.0
+    }
+  ],
+  "last_modified": "2026-01-25T19:50:53.763181"
+}

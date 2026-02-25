@@ -1,0 +1,187 @@
+{
+  "name": "witth yolo",
+  "description": "Program created on 2026-02-14 19:17",
+  "steps": [
+    {
+      "cmd": "G00",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "feedrate": 35,
+      "angle": 90,
+      "pause": 0.0
+    },
+    {
+      "cmd": "G00",
+      "x": -56.7,
+      "y": -25.1,
+      "z": -17.9,
+      "feedrate": 35,
+      "angle": 50,
+      "pause": 0.0
+    },
+    {
+      "cmd": "GRIPPER",
+      "x": -56.7,
+      "y": -25.1,
+      "z": -17.9,
+      "feedrate": 20,
+      "angle": 100,
+      "pause": 0.0
+    },
+    {
+      "cmd": "G00",
+      "x": -56.7,
+      "y": -25.1,
+      "z": -43.9,
+      "feedrate": 35,
+      "angle": 100,
+      "pause": 0.0
+    },
+    {
+      "cmd": "GRIPPER",
+      "x": -56.7,
+      "y": -25.1,
+      "z": -43.9,
+      "feedrate": 20,
+      "angle": 40,
+      "pause": 0.0
+    },
+    {
+      "cmd": "G00",
+      "x": -56.7,
+      "y": -25.1,
+      "z": -12.5,
+      "feedrate": 35,
+      "angle": 40,
+      "pause": 0.0
+    },
+    {
+      "cmd": "G00",
+      "x": -34.1,
+      "y": -7.0,
+      "z": -21.4,
+      "feedrate": 35,
+      "angle": 40,
+      "pause": 0.0
+    },
+    {
+      "cmd": "G00",
+      "x": -34.1,
+      "y": -7.0,
+      "z": -71.5,
+      "feedrate": 35,
+      "angle": 40,
+      "pause": 5.0
+    },
+    {
+      "cmd": "G00",
+      "x": -34.1,
+      "y": -7.0,
+      "z": -25.7,
+      "feedrate": 35,
+      "angle": 40,
+      "pause": 0.0
+    },
+    {
+      "cmd": "G00",
+      "x": 30.4,
+      "y": -15.3,
+      "z": -17.1,
+      "feedrate": 35,
+      "angle": 40,
+      "pause": 0.0
+    },
+    {
+      "cmd": "G00",
+      "x": 30.4,
+      "y": -15.3,
+      "z": -74.7,
+      "feedrate": 35,
+      "angle": 40,
+      "pause": 0.0
+    },
+    {
+      "cmd": "G00",
+      "x": 30.4,
+      "y": -22.8,
+      "z": -74.7,
+      "feedrate": 35,
+      "angle": 40,
+      "pause": 3.0
+    },
+    {
+      "cmd": "G00",
+      "x": 30.4,
+      "y": -15.3,
+      "z": -74.7,
+      "feedrate": 35,
+      "angle": 40,
+      "pause": 0.0
+    },
+    {
+      "cmd": "G00",
+      "x": 30.4,
+      "y": -15.3,
+      "z": -28.2,
+      "feedrate": 35,
+      "angle": 40,
+      "pause": 0.0
+    },
+    {
+      "cmd": "G00",
+      "x": 53.2,
+      "y": -15.3,
+      "z": -28.2,
+      "feedrate": 35,
+      "angle": 40,
+      "pause": 0.0
+    },
+    {
+      "cmd": "G00",
+      "x": 53.2,
+      "y": -58.8,
+      "z": -42.2,
+      "feedrate": 35,
+      "angle": 40,
+      "pause": 0.0
+    },
+    {
+      "cmd": "GRIPPER",
+      "x": 53.2,
+      "y": -58.8,
+      "z": -42.2,
+      "feedrate": 20,
+      "angle": 100,
+      "pause": 0.0
+    },
+    {
+      "cmd": "G00",
+      "x": 53.2,
+      "y": -13.1,
+      "z": -32.6,
+      "feedrate": 35,
+      "angle": 100,
+      "pause": 0.0
+    },
+    {
+      "cmd": "GRIPPER",
+      "x": 53.2,
+      "y": -13.1,
+      "z": -32.6,
+      "feedrate": 20,
+      "angle": 0,
+      "pause": 0.0
+    },
+    {
+      "cmd": "G00",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "feedrate": 35,
+      "angle": 0,
+      "pause": 0.0
+    }
+  ],
+  "last_modified": "2026-02-14T19:17:43.731620"
+}

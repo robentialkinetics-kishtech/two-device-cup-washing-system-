@@ -1,0 +1,39 @@
+{
+  "name": "test",
+  "description": "Program created on 2026-01-19 19:55",
+  "steps": [
+    {
+      "cmd": "G00",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "feedrate": 20,
+      "pause": 0.0
+    },
+    {
+      "cmd": "G00",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "feedrate": 25,
+      "pause": 0.0
+    },
+    {
+      "cmd": "G00",
+      "x": 17.0,
+      "y": 0.0,
+      "z": 0.0,
+      "feedrate": 26,
+      "pause": 0.0
+    },
+    {
+      "cmd": "G00",
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0,
+      "feedrate": 20,
+      "pause": 0.0
+    }
+  ],
+  "last_modified": "2026-01-19T19:55:15.048504"
+}

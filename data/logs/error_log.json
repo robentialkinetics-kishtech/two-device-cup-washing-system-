@@ -1,0 +1,1419 @@
+{
+  "errors": [
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "idle",
+      "timestamp": "2026-01-22T20:28:21.497902"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:22.042730"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:22.580503"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:23.112760"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:23.644964"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:24.166762"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:24.698432"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:25.230246"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:25.770621"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:26.301286"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:26.833003"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:27.372795"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:27.904412"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:28.436716"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:28.974913"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:29.506367"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:30.038245"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:30.564135"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:31.092913"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:31.624323"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:32.145789"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:32.679461"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:33.211828"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:33.743735"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:34.281660"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:34.813741"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:35.345818"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:35.884995"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:36.416425"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:36.948283"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:37.487628"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:38.034584"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:38.566068"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:39.089035"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:39.622498"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:40.152915"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:40.691338"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:41.223157"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:41.755071"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:42.294192"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:42.826366"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:43.359293"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:43.896305"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:44.428399"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:44.960846"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:45.499271"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:28:46.030659"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "idle",
+      "timestamp": "2026-01-22T20:31:33.193376"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:31:33.733597"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:31:34.263977"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:31:34.795453"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:31:35.334709"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:31:35.869735"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:31:36.398281"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:31:36.936731"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:31:37.467815"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:31:37.999907"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:31:38.539589"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:31:39.070107"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:31:39.602359"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:31:40.141465"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:31:40.672896"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:31:41.204811"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:31:41.741060"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:31:42.272899"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:31:42.805543"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:31:43.344394"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:31:43.876245"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:31:44.406952"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:31:44.946621"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:31:45.478308"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:31:46.010685"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:31:46.548430"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:31:47.080426"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:31:47.612080"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:31:48.151318"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:31:48.681153"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:31:49.214445"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:31:49.767759"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:31:50.299341"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:31:50.833111"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:31:51.371774"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:31:51.900123"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:31:52.423323"
+    },
+    {
+      "message": "Missing required positions: pickup, wash_station, rinse_station, stack\nPlease calibrate all positions in Developer Mode first!",
+      "state": "error",
+      "timestamp": "2026-01-22T20:31:52.956036"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-01-24T10:35:45.258272"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-01-24T20:08:21.718426"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-01-25T17:06:07.996926"
+    },
+    {
+      "message": "Step 2 failed: Send error: Write timeout",
+      "state": "idle",
+      "timestamp": "2026-01-25T18:47:39.572608"
+    },
+    {
+      "message": "Program 'testing' failed",
+      "state": "idle",
+      "timestamp": "2026-01-25T18:47:39.588649"
+    },
+    {
+      "message": "Step 1 failed: Send error: Write timeout",
+      "state": "idle",
+      "timestamp": "2026-01-25T19:55:46.969316"
+    },
+    {
+      "message": "Program 'testing' failed",
+      "state": "idle",
+      "timestamp": "2026-01-25T19:55:47.000378"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-01-27T19:32:00.447658"
+    },
+    {
+      "message": "Homing failed: error",
+      "state": "idle",
+      "timestamp": "2026-01-27T20:21:08.304313"
+    },
+    {
+      "message": "Homing failed: error",
+      "state": "idle",
+      "timestamp": "2026-01-27T20:21:53.662039"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-01-27T20:22:45.367024"
+    },
+    {
+      "message": "Homing failed: Send error: Write timeout",
+      "state": "idle",
+      "timestamp": "2026-01-27T20:24:04.131478"
+    },
+    {
+      "message": "Homing failed: Send error: Write timeout",
+      "state": "idle",
+      "timestamp": "2026-01-27T20:24:30.383491"
+    },
+    {
+      "message": "Homing failed: Send error: Write timeout",
+      "state": "idle",
+      "timestamp": "2026-01-27T20:26:54.339249"
+    },
+    {
+      "message": "Homing failed: Send error: Write timeout",
+      "state": "idle",
+      "timestamp": "2026-01-27T20:27:27.967507"
+    },
+    {
+      "message": "Homing failed: Send error: Write timeout",
+      "state": "idle",
+      "timestamp": "2026-01-27T20:28:27.012156"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-01-27T20:40:05.036326"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-01-27T20:40:41.808299"
+    },
+    {
+      "message": "Homing failed: error",
+      "state": "idle",
+      "timestamp": "2026-01-27T20:41:54.189282"
+    },
+    {
+      "message": "Homing failed: error",
+      "state": "idle",
+      "timestamp": "2026-01-27T20:42:45.905343"
+    },
+    {
+      "message": "Homing failed: error",
+      "state": "idle",
+      "timestamp": "2026-01-27T20:44:10.918531"
+    },
+    {
+      "message": "Homing failed: error",
+      "state": "idle",
+      "timestamp": "2026-01-27T20:44:46.905615"
+    },
+    {
+      "message": "Step 4 failed: Send error: Write timeout",
+      "state": "idle",
+      "timestamp": "2026-01-27T20:47:37.703145"
+    },
+    {
+      "message": "Program 'testing' failed",
+      "state": "idle",
+      "timestamp": "2026-01-27T20:47:37.742414"
+    },
+    {
+      "message": "Step 1 failed: Send error: Write timeout",
+      "state": "error",
+      "timestamp": "2026-01-27T20:47:52.176821"
+    },
+    {
+      "message": "Program 'testing' failed",
+      "state": "error",
+      "timestamp": "2026-01-27T20:47:52.216817"
+    },
+    {
+      "message": "Step 1 failed: Send error: Write timeout",
+      "state": "error",
+      "timestamp": "2026-01-27T20:47:57.012108"
+    },
+    {
+      "message": "Program 'testing' failed",
+      "state": "error",
+      "timestamp": "2026-01-27T20:47:57.046907"
+    },
+    {
+      "message": "Step 1 failed: Send error: Write timeout",
+      "state": "error",
+      "timestamp": "2026-01-27T20:48:52.404682"
+    },
+    {
+      "message": "Program 'testing' failed",
+      "state": "error",
+      "timestamp": "2026-01-27T20:48:52.449284"
+    },
+    {
+      "message": "Step 1 failed: Send error: Write timeout",
+      "state": "error",
+      "timestamp": "2026-01-27T20:49:00.441486"
+    },
+    {
+      "message": "Program 'testing' failed",
+      "state": "error",
+      "timestamp": "2026-01-27T20:49:00.479200"
+    },
+    {
+      "message": "Step 1 failed: Send error: Write timeout",
+      "state": "idle",
+      "timestamp": "2026-01-27T20:49:31.128863"
+    },
+    {
+      "message": "Program 'testing' failed",
+      "state": "idle",
+      "timestamp": "2026-01-27T20:49:31.172064"
+    },
+    {
+      "message": "Step 1 failed: Send error: Write timeout",
+      "state": "error",
+      "timestamp": "2026-01-27T20:49:37.042894"
+    },
+    {
+      "message": "Program 'testing' failed",
+      "state": "error",
+      "timestamp": "2026-01-27T20:49:37.080322"
+    },
+    {
+      "message": "Homing failed: Send error: Write timeout",
+      "state": "idle",
+      "timestamp": "2026-01-27T20:50:38.660995"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-01-27T20:51:02.026863"
+    },
+    {
+      "message": "Homing failed: error",
+      "state": "idle",
+      "timestamp": "2026-01-27T20:52:10.659235"
+    },
+    {
+      "message": "Step 8 failed: Send error: Write timeout",
+      "state": "idle",
+      "timestamp": "2026-01-27T20:53:10.024873"
+    },
+    {
+      "message": "Program 'testing' failed",
+      "state": "idle",
+      "timestamp": "2026-01-27T20:53:10.066326"
+    },
+    {
+      "message": "Step 2 failed: Send error: Write timeout",
+      "state": "idle",
+      "timestamp": "2026-01-31T16:13:46.316772"
+    },
+    {
+      "message": "Program 'new_program' failed",
+      "state": "idle",
+      "timestamp": "2026-01-31T16:13:46.337869"
+    },
+    {
+      "message": "Homing failed: error",
+      "state": "idle",
+      "timestamp": "2026-01-31T16:15:00.506485"
+    },
+    {
+      "message": "Homing failed: error",
+      "state": "idle",
+      "timestamp": "2026-01-31T16:15:33.708357"
+    },
+    {
+      "message": "Homing failed: error",
+      "state": "idle",
+      "timestamp": "2026-01-31T16:17:20.357284"
+    },
+    {
+      "message": "Step 1 failed: points > 50,only 50 stepserror",
+      "state": "idle",
+      "timestamp": "2026-01-31T16:18:36.897432"
+    },
+    {
+      "message": "Program 'new_program' failed",
+      "state": "idle",
+      "timestamp": "2026-01-31T16:18:36.925483"
+    },
+    {
+      "message": "Step 1 failed: points > 50,only 50 stepserror",
+      "state": "idle",
+      "timestamp": "2026-01-31T16:19:16.148344"
+    },
+    {
+      "message": "Program 'new_program' failed",
+      "state": "idle",
+      "timestamp": "2026-01-31T16:19:16.185540"
+    },
+    {
+      "message": "Step 12 failed: Send error: Write timeout",
+      "state": "idle",
+      "timestamp": "2026-01-31T19:23:39.369491"
+    },
+    {
+      "message": "Program 'testing' failed",
+      "state": "idle",
+      "timestamp": "2026-01-31T19:23:39.379581"
+    },
+    {
+      "message": "Step 10 failed: Send error: Write timeout",
+      "state": "error",
+      "timestamp": "2026-01-31T19:23:44.508971"
+    },
+    {
+      "message": "Program 'testing' failed",
+      "state": "error",
+      "timestamp": "2026-01-31T19:23:44.519770"
+    },
+    {
+      "message": "Homing failed: haven't calibration origin error",
+      "state": "idle",
+      "timestamp": "2026-02-01T14:52:13.919244"
+    },
+    {
+      "message": "Homing failed: haven't calibration origin error",
+      "state": "idle",
+      "timestamp": "2026-02-01T14:53:09.828383"
+    },
+    {
+      "message": "Homing failed: Send error: Write timeout",
+      "state": "idle",
+      "timestamp": "2026-02-01T14:55:55.110115"
+    },
+    {
+      "message": "Homing failed: haven't calibration origin error",
+      "state": "idle",
+      "timestamp": "2026-02-01T14:59:33.522032"
+    },
+    {
+      "message": "Homing failed: haven't calibration origin error",
+      "state": "idle",
+      "timestamp": "2026-02-01T15:00:16.036288"
+    },
+    {
+      "message": "Homing failed: error",
+      "state": "idle",
+      "timestamp": "2026-02-01T15:01:53.959131"
+    },
+    {
+      "message": "Homing failed: error",
+      "state": "idle",
+      "timestamp": "2026-02-01T15:23:56.456128"
+    },
+    {
+      "message": "Homing failed: error",
+      "state": "idle",
+      "timestamp": "2026-02-01T15:30:27.689405"
+    },
+    {
+      "message": "Homing failed: haven't calibration origin error",
+      "state": "idle",
+      "timestamp": "2026-02-01T16:47:51.894159"
+    },
+    {
+      "message": "Homing failed: error",
+      "state": "idle",
+      "timestamp": "2026-02-01T16:50:03.192364"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-02-12T20:14:43.302754"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-02-12T20:15:06.109504"
+    },
+    {
+      "message": "Homing failed: error",
+      "state": "idle",
+      "timestamp": "2026-02-12T20:15:38.384805"
+    },
+    {
+      "message": "No cup detected in pickup area!",
+      "state": "idle",
+      "timestamp": "2026-02-12T20:16:22.495989"
+    },
+    {
+      "message": "Cup detection failed: No cup detected in pickup area!",
+      "state": "idle",
+      "timestamp": "2026-02-12T20:16:22.511429"
+    },
+    {
+      "message": "No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-12T20:38:06.695332"
+    },
+    {
+      "message": "Cup detection failed: No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-12T20:38:06.708299"
+    },
+    {
+      "message": "No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-12T20:38:48.310710"
+    },
+    {
+      "message": "Cup detection failed: No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-12T20:38:48.343749"
+    },
+    {
+      "message": "No cup detected in pickup area (timeout)",
+      "state": "error",
+      "timestamp": "2026-02-12T20:39:08.132895"
+    },
+    {
+      "message": "Cup detection failed: No cup detected in pickup area (timeout)",
+      "state": "error",
+      "timestamp": "2026-02-12T20:39:08.160912"
+    },
+    {
+      "message": "No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-12T20:41:12.044087"
+    },
+    {
+      "message": "Cup detection failed: No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-12T20:41:12.073002"
+    },
+    {
+      "message": "Step 2 failed: points > 50,only 50 stepserror",
+      "state": "error",
+      "timestamp": "2026-02-12T20:41:34.487817"
+    },
+    {
+      "message": "Program 'new_program' failed",
+      "state": "error",
+      "timestamp": "2026-02-12T20:41:34.502286"
+    },
+    {
+      "message": "No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-12T20:45:52.581732"
+    },
+    {
+      "message": "Cup detection failed: No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-12T20:45:52.611652"
+    },
+    {
+      "message": "No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-12T20:48:16.529664"
+    },
+    {
+      "message": "Cup detection failed: No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-12T20:48:16.577536"
+    },
+    {
+      "message": "Homing failed: error",
+      "state": "idle",
+      "timestamp": "2026-02-13T20:08:11.692330"
+    },
+    {
+      "message": "Homing failed: error",
+      "state": "idle",
+      "timestamp": "2026-02-13T20:12:59.561795"
+    },
+    {
+      "message": "Step 1 failed: points > 50,only 50 stepserror",
+      "state": "idle",
+      "timestamp": "2026-02-13T20:15:08.032401"
+    },
+    {
+      "message": "Program 'witth yolo' failed",
+      "state": "idle",
+      "timestamp": "2026-02-13T20:15:08.055340"
+    },
+    {
+      "message": "Step 2 failed: Send error: Write timeout",
+      "state": "idle",
+      "timestamp": "2026-02-13T20:19:53.918953"
+    },
+    {
+      "message": "Program 'new_program' failed",
+      "state": "idle",
+      "timestamp": "2026-02-13T20:19:53.944886"
+    },
+    {
+      "message": "Step 2 failed: Send error: Write timeout",
+      "state": "error",
+      "timestamp": "2026-02-13T20:19:53.974803"
+    },
+    {
+      "message": "Program 'witth yolo' failed",
+      "state": "error",
+      "timestamp": "2026-02-13T20:19:54.004724"
+    },
+    {
+      "message": "No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-13T20:22:07.730571"
+    },
+    {
+      "message": "Cup detection failed: No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-13T20:22:07.761489"
+    },
+    {
+      "message": "No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-13T20:25:05.133978"
+    },
+    {
+      "message": "Cup detection failed: No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-13T20:25:05.152931"
+    },
+    {
+      "message": "No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-13T20:27:31.942633"
+    },
+    {
+      "message": "Cup detection failed: No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-13T20:27:31.960585"
+    },
+    {
+      "message": "Homing failed: error",
+      "state": "idle",
+      "timestamp": "2026-02-14T19:03:41.727341"
+    },
+    {
+      "message": "Step 1 failed: points > 50,only 50 stepserror",
+      "state": "idle",
+      "timestamp": "2026-02-14T19:06:04.582621"
+    },
+    {
+      "message": "Program 'new_program' failed",
+      "state": "idle",
+      "timestamp": "2026-02-14T19:06:04.608550"
+    },
+    {
+      "message": "No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-14T19:11:37.675904"
+    },
+    {
+      "message": "Cup detection failed: No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-14T19:11:37.706821"
+    },
+    {
+      "message": "No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-14T19:24:01.185942"
+    },
+    {
+      "message": "Cup detection failed: No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-14T19:24:01.215862"
+    },
+    {
+      "message": "Step 1 failed: points > 50,only 50 stepserror",
+      "state": "idle",
+      "timestamp": "2026-02-15T15:19:54.280011"
+    },
+    {
+      "message": "Program 'witth yolo' failed",
+      "state": "idle",
+      "timestamp": "2026-02-15T15:19:54.300955"
+    },
+    {
+      "message": "No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-15T15:31:01.426402"
+    },
+    {
+      "message": "Cup detection failed: No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-15T15:31:01.455331"
+    },
+    {
+      "message": "No cup detected in pickup area (timeout)",
+      "state": "error",
+      "timestamp": "2026-02-15T15:36:29.209829"
+    },
+    {
+      "message": "Cup detection failed: No cup detected in pickup area (timeout)",
+      "state": "error",
+      "timestamp": "2026-02-15T15:36:29.237755"
+    },
+    {
+      "message": "No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-15T15:51:51.325147"
+    },
+    {
+      "message": "Cup detection failed: No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-15T15:51:51.353074"
+    },
+    {
+      "message": "No cup detected in pickup area (timeout)",
+      "state": "error",
+      "timestamp": "2026-02-15T15:53:49.459907"
+    },
+    {
+      "message": "Cup detection failed: No cup detected in pickup area (timeout)",
+      "state": "error",
+      "timestamp": "2026-02-15T15:53:49.485838"
+    },
+    {
+      "message": "No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-15T15:56:53.839330"
+    },
+    {
+      "message": "Cup detection failed: No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-15T15:56:53.866255"
+    },
+    {
+      "message": "Step 3 failed: instruction error",
+      "state": "idle",
+      "timestamp": "2026-02-15T16:05:21.555605"
+    },
+    {
+      "message": "Program 'new_program' failed",
+      "state": "idle",
+      "timestamp": "2026-02-15T16:05:21.582537"
+    },
+    {
+      "message": "No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-15T16:07:47.176723"
+    },
+    {
+      "message": "Cup detection failed: No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-15T16:07:47.195672"
+    },
+    {
+      "message": "No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-15T16:18:53.294638"
+    },
+    {
+      "message": "Cup detection failed: No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-15T16:18:53.312590"
+    },
+    {
+      "message": "No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-15T17:24:14.323340"
+    },
+    {
+      "message": "Cup detection failed: No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-15T17:24:14.342285"
+    },
+    {
+      "message": "No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-15T17:34:29.798452"
+    },
+    {
+      "message": "Cup detection failed: No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-15T17:34:29.826377"
+    },
+    {
+      "message": "No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-15T17:36:43.005905"
+    },
+    {
+      "message": "Cup detection failed: No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-15T17:36:43.053780"
+    },
+    {
+      "message": "No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-15T17:38:17.253684"
+    },
+    {
+      "message": "Cup detection failed: No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-15T17:38:17.272633"
+    },
+    {
+      "message": "No cup detected in pickup area (timeout)",
+      "state": "error",
+      "timestamp": "2026-02-15T17:38:51.770900"
+    },
+    {
+      "message": "Cup detection failed: No cup detected in pickup area (timeout)",
+      "state": "error",
+      "timestamp": "2026-02-15T17:38:51.799828"
+    },
+    {
+      "message": "No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-15T17:41:10.743327"
+    },
+    {
+      "message": "Cup detection failed: No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-15T17:41:10.763273"
+    },
+    {
+      "message": "No cup detected in pickup area (timeout)",
+      "state": "error",
+      "timestamp": "2026-02-15T17:41:43.899986"
+    },
+    {
+      "message": "Cup detection failed: No cup detected in pickup area (timeout)",
+      "state": "error",
+      "timestamp": "2026-02-15T17:41:43.927910"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-02-16T00:10:25.007137"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-02-16T00:16:14.868990"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-02-17T12:08:22.070129"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-02-17T12:34:37.031579"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-02-17T20:35:38.989636"
+    },
+    {
+      "message": "Step 1 failed: points > 50,only 50 stepserror",
+      "state": "idle",
+      "timestamp": "2026-02-17T20:37:21.741642"
+    },
+    {
+      "message": "Program 'witth yolo' failed",
+      "state": "idle",
+      "timestamp": "2026-02-17T20:37:21.772560"
+    },
+    {
+      "message": "Step 15 failed: Send error: Write timeout",
+      "state": "error",
+      "timestamp": "2026-02-17T20:38:24.697130"
+    },
+    {
+      "message": "Program 'witth yolo' failed",
+      "state": "error",
+      "timestamp": "2026-02-17T20:38:24.731039"
+    },
+    {
+      "message": "No cup detected in pickup area (timeout)",
+      "state": "error",
+      "timestamp": "2026-02-17T20:39:43.037252"
+    },
+    {
+      "message": "Cup detection failed: No cup detected in pickup area (timeout)",
+      "state": "error",
+      "timestamp": "2026-02-17T20:39:43.067173"
+    },
+    {
+      "message": "No cup detected in pickup area (timeout)",
+      "state": "error",
+      "timestamp": "2026-02-17T20:41:24.691579"
+    },
+    {
+      "message": "Cup detection failed: No cup detected in pickup area (timeout)",
+      "state": "error",
+      "timestamp": "2026-02-17T20:41:24.724490"
+    },
+    {
+      "message": "No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-17T20:44:24.051705"
+    },
+    {
+      "message": "Cup detection failed: No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-17T20:44:24.083620"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-02-18T16:17:13.410393"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-02-18T18:45:32.598780"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-02-18T18:46:40.800670"
+    },
+    {
+      "message": "Step 1 failed: points > 50,only 50 stepserror",
+      "state": "idle",
+      "timestamp": "2026-02-20T20:30:44.443158"
+    },
+    {
+      "message": "Program 'new_program' failed",
+      "state": "idle",
+      "timestamp": "2026-02-20T20:30:44.484050"
+    },
+    {
+      "message": "No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-20T20:36:54.963844"
+    },
+    {
+      "message": "Cup detection failed: No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-20T20:36:54.994761"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-02-24T10:05:07.684602"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-02-24T10:05:40.719695"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-02-24T10:18:14.075416"
+    },
+    {
+      "message": "No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-24T10:19:22.358464"
+    },
+    {
+      "message": "Cup detection failed: No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-24T10:19:22.373975"
+    },
+    {
+      "message": "Step 1 failed: points > 50,only 50 stepserror",
+      "state": "idle",
+      "timestamp": "2026-02-24T18:53:51.433347"
+    },
+    {
+      "message": "Program 'new_program' failed",
+      "state": "idle",
+      "timestamp": "2026-02-24T18:53:51.446641"
+    },
+    {
+      "message": "No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-24T18:55:50.010525"
+    },
+    {
+      "message": "Cup detection failed: No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-24T18:55:50.022847"
+    },
+    {
+      "message": "Step 2 failed: Send error: WriteFile failed (OSError(9, 'The handle is invalid.', None, 6))",
+      "state": "idle",
+      "timestamp": "2026-02-24T18:56:26.267745"
+    },
+    {
+      "message": "Program 'new_program' failed",
+      "state": "idle",
+      "timestamp": "2026-02-24T18:56:26.276060"
+    },
+    {
+      "message": "No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-24T19:13:47.351260"
+    },
+    {
+      "message": "Cup detection failed: No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-24T19:13:47.366402"
+    },
+    {
+      "message": "No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-24T19:24:04.422761"
+    },
+    {
+      "message": "Cup detection failed: No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-24T19:24:04.434808"
+    },
+    {
+      "message": "No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-24T19:31:15.120962"
+    },
+    {
+      "message": "Cup detection failed: No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-24T19:31:15.131992"
+    },
+    {
+      "message": "No cup detected in pickup area (timeout)",
+      "state": "error",
+      "timestamp": "2026-02-24T19:34:35.072276"
+    },
+    {
+      "message": "Cup detection failed: No cup detected in pickup area (timeout)",
+      "state": "error",
+      "timestamp": "2026-02-24T19:34:35.083269"
+    },
+    {
+      "message": "No cup detected in pickup area (timeout)",
+      "state": "error",
+      "timestamp": "2026-02-24T19:34:51.565320"
+    },
+    {
+      "message": "Cup detection failed: No cup detected in pickup area (timeout)",
+      "state": "error",
+      "timestamp": "2026-02-24T19:34:51.577314"
+    },
+    {
+      "message": "No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-24T19:51:07.447481"
+    },
+    {
+      "message": "Cup detection failed: No cup detected in pickup area (timeout)",
+      "state": "idle",
+      "timestamp": "2026-02-24T19:51:07.460498"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-02-24T20:07:58.031684"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-02-24T20:08:27.282913"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-02-24T20:08:54.510207"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-02-24T20:09:12.316135"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-02-24T20:12:47.367948"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-02-24T20:13:12.951492"
+    },
+    {
+      "message": "Homing failed: error",
+      "state": "idle",
+      "timestamp": "2026-02-24T20:19:25.280665"
+    },
+    {
+      "message": "Homing failed: error",
+      "state": "idle",
+      "timestamp": "2026-02-24T20:19:57.235139"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-02-24T20:22:29.819699"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-02-24T20:23:02.747639"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-02-24T20:23:25.574121"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-02-24T20:23:59.129223"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-02-24T20:24:58.928070"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-02-24T20:25:23.552681"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-02-24T20:26:14.226736"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-02-24T20:26:38.119729"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-02-24T20:27:36.810385"
+    }
+  ]
+}

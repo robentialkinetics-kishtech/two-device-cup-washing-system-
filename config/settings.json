@@ -1,0 +1,30 @@
+{
+  "robot": {
+    "port": "COM4",
+    "baudrate": 9600,
+    "arm_speed": 100,
+    "wash_time": 10,
+    "rinse_time": 5,
+    "brush_speed": 150,
+    "water_flow": 100
+  },
+  "user": {
+    "username": "admin",
+    "password_hash": "9af15b336e6a9619928537df30b2e6a2376569fcf9d7e773eccede65606529a0",
+    "role": "admin",
+    "last_login": "data.storage",
+    "session_active": true
+  },
+  "system": {
+    "first_run": true,
+    "calibrated": false,
+    "total_cups_washed": 0,
+    "total_runtime_hours": 0.0,
+    "maintenance_due": false
+  },
+  "ui": {
+    "last_mode": "single_cycle",
+    "last_target_cups": 10,
+    "theme": "dark"
+  }
+}
