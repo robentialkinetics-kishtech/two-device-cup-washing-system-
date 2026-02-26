@@ -1,0 +1,8 @@
+- use only to get updated code
+git pull origin main  
+
+
+- junior dont use this
+git add .
+git commit -m "what you changed"
+git push origin main     
