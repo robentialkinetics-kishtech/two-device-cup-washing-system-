@@ -1,0 +1,7 @@
+names:
+- cup
+nc: 1
+path: C:\cup washing system\yolo dataset\_combined
+test: test/images
+train: train/images
+val: val/images
