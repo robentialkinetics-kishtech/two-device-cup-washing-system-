@@ -1,20 +1,6 @@
 {
   "cycles": [
     {
-      "cup_number": 97,
-      "cycle_time": 0.0,
-      "success": false,
-      "error": "Pickup failed",
-      "timestamp": "2026-01-19T20:48:17.597999"
-    },
-    {
-      "cup_number": 98,
-      "cycle_time": 0.006038188934326172,
-      "success": false,
-      "error": "Pickup failed",
-      "timestamp": "2026-01-19T20:48:18.145020"
-    },
-    {
       "cup_number": 99,
       "cycle_time": 0.0,
       "success": false,
@@ -7064,6 +7050,22 @@
       "success": false,
       "error": "Cup detection failed: No cup detected in pickup area (timeout)",
       "timestamp": "2026-02-24T19:51:07.472644"
+    },
+    {
+      "cup_number": 1,
+      "cycle_time": 0.260936975479126,
+      "program": "witth yolo",
+      "success": false,
+      "error": "Program 'witth yolo' failed",
+      "timestamp": "2026-02-26T20:16:58.732004"
+    },
+    {
+      "cup_number": 1,
+      "cycle_time": 0.2489471435546875,
+      "program": "witth yolo",
+      "success": false,
+      "error": "Program 'witth yolo' failed",
+      "timestamp": "2026-02-26T20:17:02.035833"
     }
   ]
 }

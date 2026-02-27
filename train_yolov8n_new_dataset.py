@@ -200,7 +200,7 @@ def train_model(data_yaml, model_name="yolov8n_combined"):
     results = model.train(
         # Dataset and paths
         data=str(data_yaml),
-        epochs=200,              # Increased to 200 for better convergence
+        epochs=500,              # Increased to 200 for better convergence
         imgsz=640,               # Image size
         
         # Batch and device

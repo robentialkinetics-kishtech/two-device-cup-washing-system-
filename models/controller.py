@@ -34,7 +34,7 @@ class CupWashingController:
         self.sensors = SensorSystem()
         
         # Initialize vision with trained model
-        model_path = "runs/detect/cup_detection_with_background10/weights/best.pt"  # Use latest trained model
+        model_path = "runs\detect\runs\detect\yolov8n_areas_with_background3\weights\best.pt"  # Use latest trained model
         self.vision = VisionSystem(model_path=model_path)
         
         # Load calibration

@@ -1414,6 +1414,56 @@
       "message": "Homing failed: Not connected",
       "state": "idle",
       "timestamp": "2026-02-24T20:27:36.810385"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-02-26T20:00:29.922147"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-02-26T20:13:23.535096"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-02-26T20:14:17.241390"
+    },
+    {
+      "message": "Step 1 failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-02-26T20:16:58.696790"
+    },
+    {
+      "message": "Program 'witth yolo' failed",
+      "state": "idle",
+      "timestamp": "2026-02-26T20:16:58.710324"
+    },
+    {
+      "message": "Step 1 failed: Not connected",
+      "state": "error",
+      "timestamp": "2026-02-26T20:17:02.007656"
+    },
+    {
+      "message": "Program 'witth yolo' failed",
+      "state": "error",
+      "timestamp": "2026-02-26T20:17:02.020484"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-02-26T20:17:14.966016"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-02-26T20:17:46.445661"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-02-26T22:18:25.195035"
     }
   ]
 }
