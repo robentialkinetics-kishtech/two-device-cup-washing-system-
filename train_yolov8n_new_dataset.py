@@ -39,6 +39,11 @@ def create_combined_dataset(base_path="yolo dataset"):
     Create a combined dataset from all area datasets + background images
     Combines train, val, test splits from all three datasets
     Also adds background images (without cups) to reduce false positives
+
+    The script used to write to ``_combined``; the current workspace
+    already contains a ``combined/`` folder.  By default we now write
+    into ``yolo dataset/combined`` so the path aligns with the updated
+    dataset layout.
     """
     base_path = Path(base_path)
     
@@ -48,15 +53,34 @@ def create_combined_dataset(base_path="yolo dataset"):
         base_path / "rinsing area dataset"
     ]
     
-    # Create combined dataset directory
-    combined_path = base_path / "_combined"
+    # Create combined dataset directory (now named "combined")
+    combined_path = base_path / "combined"
     combined_path.mkdir(exist_ok=True)
+    # if the folder already exists we assume the dataset was pre‑built
+    # and simply add any missing files below
+
     
+    # create the directories YOLO expects; the training code uses 'val' but
+    # many of our source datasets call the validation split 'valid'.  Always
+    # ensure there's a 'val' folder for downstream steps.
     for split in ["train", "val", "test"]:
         split_img_path = combined_path / split / "images"
         split_lbl_path = combined_path / split / "labels"
         split_img_path.mkdir(parents=True, exist_ok=True)
         split_lbl_path.mkdir(parents=True, exist_ok=True)
+
+    # if an old "valid" folder exists (e.g. from earlier versions) and the
+    # new "val" is empty, create a symlink/alias so training finds the files.
+    valid_dir = combined_path / "valid"
+    if valid_dir.exists() and not (combined_path / "val").exists():
+        # on Windows we can't rely on symlinks easily; best to copy or rename
+        try:
+            valid_dir.rename(combined_path / "val")
+            print("ℹ️  Renamed existing 'valid' split to 'val' for compatibility")
+        except OSError:
+            # fallback: copy contents
+            shutil.copytree(valid_dir, combined_path / "val", dirs_exist_ok=True)
+            print("ℹ️  Copied 'valid' to 'val' for compatibility")
     
     # Copy data from all datasets
     print("📦 Combining datasets...")
@@ -69,14 +93,21 @@ def create_combined_dataset(base_path="yolo dataset"):
             
         print(f"\n📂 Processing {dataset_path.name}...")
         
-        for split in ["train", "val", "test"]:
+        # source datasets might use either "val" or "valid" for the
+        # validation split; we normalize both to the combined "val" directory.
+        for split in ["train", "val", "valid", "test"]:
+            # map source names to destination names
+            dst_split = "val" if split in ("val", "valid") else split
             src_img_dir = dataset_path / split / "images"
             src_lbl_dir = dataset_path / split / "labels"
             
-            dst_img_dir = combined_path / split / "images"
-            dst_lbl_dir = combined_path / split / "labels"
+            dst_img_dir = combined_path / dst_split / "images"
+            dst_lbl_dir = combined_path / dst_split / "labels"
             
             if not src_img_dir.exists():
+                # if we just looked for valid and it wasn't there, skip silently
+                if split == "valid":
+                    continue
                 print(f"   ⚠ {split}/images not found")
                 continue
             
@@ -84,14 +115,14 @@ def create_combined_dataset(base_path="yolo dataset"):
             img_files = list(src_img_dir.glob("*"))
             for img_file in img_files:
                 shutil.copy2(img_file, dst_img_dir / img_file.name)
-                image_count[split] += 1
+                image_count[dst_split] += 1
                 
                 # Also copy corresponding label file
                 label_file = src_lbl_dir / (img_file.stem + ".txt")
                 if label_file.exists():
                     shutil.copy2(label_file, dst_lbl_dir / label_file.name)
             
-            print(f"   ✓ {split}: {len(img_files)} images copied")
+            print(f"   ✓ {dst_split} ({split} source): {len(img_files)} images copied")
     
     # ═════════════════════════════════════════════════════════════
     # ADD BACKGROUND IMAGES (NO CUPS)
@@ -153,17 +184,33 @@ def create_combined_dataset(base_path="yolo dataset"):
     return combined_path, image_count
 
 
-def create_unified_data_yaml(combined_path, output_yaml="yolo dataset/data_combined.yaml"):
+def create_unified_data_yaml(combined_path, output_yaml="yolo dataset/combined/data.yaml"):
     """
     Create a unified data.yaml for the combined dataset
+
+    The YAML will live alongside the merged images under ``yolo dataset/combined``
+    which matches the layout currently committed to the repo.
     """
     # Convert to absolute paths for YOLO
     combined_abs = Path(combined_path).resolve()
     
+    # decide which validation directory actually contains images
+    val_dir = combined_abs / "val" / "images"
+    if not val_dir.exists() or not any(val_dir.iterdir()):
+        # fall back to "valid" if present
+        alt = combined_abs / "valid" / "images"
+        if alt.exists() and any(alt.iterdir()):
+            print("ℹ️  Using 'valid' folder for validation data")
+            val_path = "valid/images"
+        else:
+            val_path = "val/images"
+    else:
+        val_path = "val/images"
+
     data_yaml = {
         "path": str(combined_abs),
         "train": "train/images",
-        "val": "val/images",
+        "val": val_path,
         "test": "test/images",
         "nc": 1,  # Number of classes - cup detection
         "names": ["cup"],  # Class name
@@ -218,15 +265,15 @@ def train_model(data_yaml, model_name="yolov8n_combined"):
         
         # Augmentation for robustness across different areas
         augment=True,            # Enable augmentation
-        hsv_h=0.015,            # HSV-Hue augmentation
-        hsv_s=0.7,              # HSV-Saturation 
-        hsv_v=0.4,              # HSV-Value
+        hsv_h=0.015,            # HSV-Hue augmentation (default)
+        hsv_s=0.7,              # HSV-Saturation (default) 
+        hsv_v=0.4,              # HSV-Value (default)
         degrees=10,             # Rotation degrees (reduced for better stability)
-        translate=0.1,          # Translation
-        scale=0.5,              # Scale variation
+        translate=0.1,          # Translation (default) teaches different positions in frame
+        scale=0.5,              # Scale variation (default) teaches different sizes/distances
         flipud=0.5,             # Flip upside down
-        fliplr=0.5,             # Flip left-right
-        mosaic=1.0,             # Mosaic augmentation
+        fliplr=0.5,             # Flip left-right (default)
+        mosaic=1.0,             # Mosaic augmentation early on
         mixup=0.1,              # Mix-up augmentation
         copy_paste=0.0,         # Copy-paste augmentation
         
@@ -243,7 +290,7 @@ def train_model(data_yaml, model_name="yolov8n_combined"):
         
         # Hardware optimization
         workers=8,              # Number of workers for data loading
-        close_mosaic=15,        # Close mosaic augmentation in final N epochs
+        close_mosaic=15,        # Close mosaic augmentation in final N epochs (disables mosaic near end)
     )
     
     print(f"\n{'='*80}")
@@ -273,6 +320,26 @@ def evaluate_model(model_path, data_yaml):
     return metrics
 
 
+def run_tracking(model_path, source, tracker='botsort', tracker_config=None):
+    """
+    Run the YOLO model in tracking mode on a video or image sequence.
+
+    ``persist=True`` keeps the tracker state between frames so that
+    objects retain IDs.  The ``tracker`` argument can be set to
+    ``'botsort'`` or ``'bytetrack'`` and a YAML config may be supplied
+    with ``tracker_config``.  Example configs are often shipped with
+    the ultralytics repo;
+    see `BoT-SORT <https://github.com/ultralytics/trackers>`_.
+    """
+    model = YOLO(model_path)
+    print(f"🔎 Tracking {source} using {tracker}")
+    kwargs = {"persist": True}
+    if tracker_config:
+        kwargs["tracker"] = tracker
+        kwargs["tracker_config"] = tracker_config
+    model.track(source=source, **kwargs)
+
+
 def main():
     """
     Main training pipeline
@@ -298,6 +365,11 @@ def main():
     best_model_path = Path("runs/detect/yolov8n_areas_with_background/weights/best.pt")
     if best_model_path.exists():
         metrics = evaluate_model(best_model_path, data_yaml)
+        # you can also run the tracker on a sample video/frames:
+        # run_tracking(best_model_path,
+        #              source="path/to/video.mp4",
+        #              tracker='botsort',
+        #              tracker_config='configs/botsort.yaml')
     
     print("\n" + "="*80)
     print("🎉 TRAINING PIPELINE COMPLETE!")

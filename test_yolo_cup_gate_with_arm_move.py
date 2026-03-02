@@ -1,12 +1,12 @@
 import cv2
 import time
-from ultralytics import YOLO
+f    rom ultralytics import YOLO
 from models.robot import ZKBotController
 from data.storage import DataStorage
 import os
 import sys
 
-# Add project root to path
+# Add   project root to path
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 # CONFIG

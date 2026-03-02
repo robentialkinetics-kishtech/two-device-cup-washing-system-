@@ -1464,6 +1464,16 @@
       "message": "Homing failed: Not connected",
       "state": "idle",
       "timestamp": "2026-02-26T22:18:25.195035"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-02-27T19:45:22.597490"
+    },
+    {
+      "message": "Homing failed: Not connected",
+      "state": "idle",
+      "timestamp": "2026-02-28T12:20:36.146362"
     }
   ]
 }
