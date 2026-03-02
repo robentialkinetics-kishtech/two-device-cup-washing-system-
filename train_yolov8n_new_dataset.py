@@ -278,7 +278,7 @@ def train_model(data_yaml, model_name="yolov8n_combined"):
         copy_paste=0.0,         # Copy-paste augmentation
         
         # Loss and validation
-        patience=20,            # Early stopping patience
+        patience=None,            # Early stopping patience
         save=True,              # Save checkpoints
         save_period=10,         # Save every N epochs
         
